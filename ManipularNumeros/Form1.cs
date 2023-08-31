@@ -50,7 +50,13 @@ namespace ManipularNumeros
             //lblResultado.Text = Convert.ToString(num, 16);
             #endregion
 
+            double pi = Math.PI;
+            double E = Math.E;
+            double seno = Math.Sin(3);
+            double cosseno = Math.Cos(3);
+            double potencia = Math.Pow(2, 2);
 
+            lblResultado.Text = potencia.ToString();
 
 
         }
