@@ -55,8 +55,9 @@ namespace ManipularNumeros
             double seno = Math.Sin(3);
             double cosseno = Math.Cos(3);
             double potencia = Math.Pow(2, 10);
+            double raizQuadrada = Math.Sqrt(49);
 
-            lblResultado.Text = potencia.ToString();
+            lblResultado.Text = raizQuadrada.ToString();
 
 
         }
