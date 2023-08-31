@@ -54,7 +54,7 @@ namespace ManipularNumeros
             double E = Math.E;
             double seno = Math.Sin(3);
             double cosseno = Math.Cos(3);
-            double potencia = Math.Pow(2, 2);
+            double potencia = Math.Pow(2, 3);
 
             lblResultado.Text = potencia.ToString();
 
