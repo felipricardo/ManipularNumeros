@@ -56,8 +56,10 @@ namespace ManipularNumeros
             double cosseno = Math.Cos(3);
             double potencia = Math.Pow(2, 10);
             double raizQuadrada = Math.Sqrt(49);
+            double arredonda = Math.Round(158.75);
+            double inteiro = Math.Truncate(32.57);
 
-            lblResultado.Text = raizQuadrada.ToString();
+            lblResultado.Text = inteiro.ToString();
 
 
         }
