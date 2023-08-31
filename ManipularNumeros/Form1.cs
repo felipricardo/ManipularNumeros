@@ -19,21 +19,25 @@ namespace ManipularNumeros
 
         private void bntExecutar_Click(object sender, EventArgs e)
         {
-            int num;
+            #region TryParse
+            //int num;
             //bool res = int.TryParse("1985alow", out num);
 
             //int.TryParse("1985alow", out num);
 
-            if (int.TryParse("1985", out num))
-            {
-                lblResultado.Text = num.ToString();
-            }
-            else
-            {
-                lblResultado.Text = "Erro na conversão";
-            }
+            //if (int.TryParse("1985", out num))
+            //{
+            //    lblResultado.Text = num.ToString();
+            //}
+            //else
+            //{
+            //    lblResultado.Text = "Erro na conversão";
+            //}
+            #endregion
 
-            
+
+
+
         }
     }
 }
