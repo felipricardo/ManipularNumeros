@@ -50,6 +50,7 @@ namespace ManipularNumeros
             //lblResultado.Text = Convert.ToString(num, 16);
             #endregion
 
+            // Classe Math
             double pi = Math.PI;
             double E = Math.E;
             double seno = Math.Sin(3);
