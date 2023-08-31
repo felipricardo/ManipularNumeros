@@ -49,6 +49,7 @@
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(827, 404);
             this.lblResultado.TabIndex = 1;
+            this.lblResultado.UseMnemonic = false;
             // 
             // Form1
             // 
@@ -58,6 +59,7 @@
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.bntExecutar);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
 
