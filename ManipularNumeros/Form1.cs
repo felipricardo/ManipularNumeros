@@ -38,7 +38,7 @@ namespace ManipularNumeros
             //double num = 120.5524;
             //lblResultado.Text = num.ToString("#.00");
 
-            int num = 11;
+            int num = 254;
             //lblResultado.Text = num.ToString("X"); // Hexadecimal
             //lblResultado.Text = num.ToString("D");  // Decimal
 
