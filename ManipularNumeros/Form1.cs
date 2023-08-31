@@ -58,8 +58,10 @@ namespace ManipularNumeros
             double raizQuadrada = Math.Sqrt(49);
             double arredonda = Math.Round(158.75);
             double inteiro = Math.Truncate(32.57);
+            double floor = Math.Floor(52.75);
+            double ceil = Math.Ceiling(52.75);
 
-            lblResultado.Text = inteiro.ToString();
+            lblResultado.Text = ceil.ToString();
 
 
         }
