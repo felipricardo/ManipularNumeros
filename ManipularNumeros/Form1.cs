@@ -35,9 +35,8 @@ namespace ManipularNumeros
             //}
             #endregion
 
-            int num = 120;
-
-            lblResultado.Text = num.ToString("00000.00");
+            double num = 120.5524;
+            lblResultado.Text = num.ToString("#.00");
         }
     }
 }
