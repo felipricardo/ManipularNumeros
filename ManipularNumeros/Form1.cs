@@ -46,6 +46,8 @@ namespace ManipularNumeros
             //lblResultado.Text = num.ToString("D");  // Decimal
             //lblResultado.Text = num.ToString("C");  // Monetario
 
+            lblResultado.Text = Convert.ToString(num, 8);
+
 
         }
     }
