@@ -19,7 +19,8 @@ namespace ManipularNumeros
 
         private void bntExecutar_Click(object sender, EventArgs e)
         {
-            int num = int.Parse("1985");
+            int num;
+            int.TryParse("1985", out num);
 
             lblResultado.Text = num.ToString();
         }
