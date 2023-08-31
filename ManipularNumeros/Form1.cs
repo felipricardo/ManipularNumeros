@@ -20,9 +20,20 @@ namespace ManipularNumeros
         private void bntExecutar_Click(object sender, EventArgs e)
         {
             int num;
-            int.TryParse("1985", out num);
+            //bool res = int.TryParse("1985alow", out num);
 
-            lblResultado.Text = num.ToString();
+            //int.TryParse("1985alow", out num);
+
+            if (int.TryParse("1985alow", out num))
+            {
+                lblResultado.Text = num.ToString();
+            }
+            else
+            {
+                lblResultado.Text = "Erro na conversão";
+            }
+
+            
         }
     }
 }
