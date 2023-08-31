@@ -44,7 +44,7 @@ namespace ManipularNumeros
 
             //lblResultado.Text = num.ToString("X2"); // Hex min 2 digitos
 
-            lblResultado.Text = num.ToString("D2"); // Dec
+            lblResultado.Text = num.ToString("D2"); // Dec min 2 digitos
 
             //lblResultado.Text = num.ToString("D");  // Decimal
             //lblResultado.Text = num.ToString("C");  // Monetario
