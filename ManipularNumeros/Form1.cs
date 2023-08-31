@@ -35,10 +35,11 @@ namespace ManipularNumeros
             //}
             #endregion
 
+            #region ToString / Convert.ToString
             //double num = 120.5524;
             //lblResultado.Text = num.ToString("#.00");
 
-            int num = 254;
+            //int num = 254;
             //lblResultado.Text = num.ToString("X"); // Hexadecimal
             //lblResultado.Text = num.ToString("D");  // Decimal
             //lblResultado.Text = num.ToString("X2"); // Hex min 2 digitos
@@ -46,7 +47,10 @@ namespace ManipularNumeros
             //lblResultado.Text = num.ToString("D");  // Decimal
             //lblResultado.Text = num.ToString("C");  // Monetario
 
-            lblResultado.Text = Convert.ToString(num, 16);
+            //lblResultado.Text = Convert.ToString(num, 16);
+            #endregion
+
+
 
 
         }
