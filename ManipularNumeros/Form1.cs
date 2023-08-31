@@ -35,8 +35,13 @@ namespace ManipularNumeros
             //}
             #endregion
 
-            double num = 120.5524;
-            lblResultado.Text = num.ToString("#.00");
+            //double num = 120.5524;
+            //lblResultado.Text = num.ToString("#.00");
+
+            int num = 11;
+            //lblResultado.Text = num.ToString("X"); // Hexadecimal
+            //lblResultado.Text = num.ToString("D");  // Decimal
+            lblResultado.Text = num.ToString("C");  // Monetario
         }
     }
 }
