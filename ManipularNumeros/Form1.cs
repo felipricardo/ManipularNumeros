@@ -24,7 +24,7 @@ namespace ManipularNumeros
 
             //int.TryParse("1985alow", out num);
 
-            if (int.TryParse("1985alow", out num))
+            if (int.TryParse("1985", out num))
             {
                 lblResultado.Text = num.ToString();
             }
